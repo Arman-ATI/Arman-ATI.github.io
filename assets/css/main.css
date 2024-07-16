@@ -32,7 +32,7 @@
 input[type=button],
 input[type=submit],
 input[type=reset] {
-    background-color: rgb(135, 5, 18);
+    background-color: #68ad91;
     border: none;
     color: white;
     padding: 8px 8px;
@@ -44,7 +44,7 @@ input[type=reset] {
 
 input[type=text] {
     border: none;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 16px 16px;
     border-radius: 22px;
     text-decoration: none;
@@ -121,11 +121,11 @@ input[type=text] {
 }
 
 body {
-    color: #fff;
+    color: #000000;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
-    background: black;
+    background: rgb(255, 255, 255);
     position: relative
 }
 
@@ -196,7 +196,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #ffff;
+    color: #000000;
     line-height: 1.2em !important;
     margin-bottom: 0;
     margin-top: 0;
@@ -2366,9 +2366,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .brands-area,
 .about-banner,
 .sb_bar {
-    background: -moz-linear-gradient(0deg, #000000 0%,  rgb(135, 5, 18) 100%);
-    background: -webkit-linear-gradient(0deg, #000000 0%, rgb(135, 5, 18) 100%);
-    background: -ms-linear-gradient(0deg, #000000 0%, rgb(135, 5, 18) 100%);
+    background: -moz-linear-gradient(0deg, #000000 0%,  #68ad91 100%);
+    background: -webkit-linear-gradient(0deg, #000000 0%, #68ad91 100%);
+    background: -ms-linear-gradient(0deg, #000000 0%, #68ad91 100%);
     border-radius: 20px;
 }
 
@@ -2842,7 +2842,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     -o-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
     text-align: center;
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 40px 20px
 }
 
@@ -2856,7 +2856,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-right: auto;
     width: 140px;
     height: 140px;
-    background-color: rgba(233, 51, 60, .1);
+    background-color: #68ad91;
     border-radius: 100px;
     align-items: center;
     display: grid;
@@ -2874,7 +2874,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .price-area .single-price .package-list ul li {
     padding: 10px 0;
-    border-top: 0px solid #eee
+    border-top: 0px solid #3f3c3c
 }
 
 .price-area .single-price .package-list ul li:last-child {
@@ -3681,19 +3681,19 @@ dl.accordion.time-line:before {
 }
 
 .widget-wrap .search-widget ::-webkit-input-placeholder {
-    color: #fff
+    color: hsl(0, 0%, 100%)
 }
 
 .widget-wrap .search-widget ::-moz-placeholder {
-    color: #fff
+    color: hsl(0, 0%, 100%)
 }
 
 .widget-wrap .search-widget :-ms-input-placeholder {
-    color: #fff
+    color: #ffffff
 }
 
 .widget-wrap .search-widget :-moz-placeholder {
-    color: #fff
+    color: #ffffff
 }
 
 .widget-wrap .search-widget form.search-form button {
@@ -3701,7 +3701,7 @@ dl.accordion.time-line:before {
     width: 20%;
     padding: 10px;
     background: #8490ff;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 17px;
     border: none;
     cursor: pointer;
@@ -3734,7 +3734,7 @@ dl.accordion.time-line:before {
 }
 
 .widget-wrap .user-info-widget .social-links li a {
-    color: #ffff;
+    color: #000000;
     padding: 10px;
     font-size: 14px;
     -webkit-transition: all .3s ease 0s;
@@ -4248,7 +4248,7 @@ dl.accordion.time-line:before {
     font-weight: 600;
     text-align: center;
     padding: 40px;
-    color: #fff;
+    color: #000000;
     margin-bottom: 30px
 }
 
@@ -4316,11 +4316,11 @@ dl.accordion.time-line:before {
 }
 
 .footer-area {
-    background-color: #000000
+    background-color: #ffffff
 }
 
 .single-footer-widget h4 {
-    color: #fff !important;
+    color: #040404 !important;
     margin-bottom: 25px;
     font-weight: 500
 }
@@ -4329,7 +4329,7 @@ dl.accordion.time-line:before {
     border: none;
     width: 80% !important;
     font-weight: 300;
-    background: #f9f9ff;
+    background: #000000;
     padding-left: 20px;
     border-radius: 0;
     font-size: 14px;
@@ -4339,7 +4339,7 @@ dl.accordion.time-line:before {
 
 .single-footer-widget .form-control:focus {
     box-shadow: none;
-    color: #ffff
+    color: #000000
 }
 
 .single-footer-widget ul li {
@@ -4450,7 +4450,7 @@ dl.accordion.time-line:before {
 
 .single-footer-widget .footer-social a i {
     vertical-align: bottom;
-    color: #fff
+    color: #000000
 }
 
 .single-footer-widget .footer-social a:hover i {
@@ -4478,7 +4478,7 @@ dl.accordion.time-line:before {
 }
 
 .footer-text a {
-    color: #ffffff
+    color: #68ad91
 }
 
 ::-webkit-scrollbar {
