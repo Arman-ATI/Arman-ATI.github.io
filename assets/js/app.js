@@ -1,7 +1,7 @@
 new Swiper("#swiper-2", {
-    slidesPerView: 3,
+    slidesPerView: 1.75,
     centeredSlides: true,
-    spaceBetween: 120,
+    spaceBetween: 85,
     pagination: {
         el: ("#swiper-2 .swiper-custom-pagination"),
         clickable: true,
@@ -26,7 +26,7 @@ new Swiper("#swiper-2", {
             slidesPerView: 2.5,
         },
         1400: {
-            slidesPerView: 3.75
+            slidesPerView: 4
         }
     }
 });

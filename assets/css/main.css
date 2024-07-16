@@ -4545,3 +4545,32 @@ Remove or comment-out the code block below to see how the browser will fall-back
         margin: 0;
     }
 }
+
+/* Create a top navigation bar with a black background color  */
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #000000;
+    color: #68ad91;
+  }
+  
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+    float: right;
+    background-color: #000000;
+    color: white;
+  }
