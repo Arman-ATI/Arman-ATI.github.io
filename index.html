@@ -2,18 +2,32 @@
 <html lang="zxx" class="no-js" style="display: block;">
 
 <head>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta name="viewport" content="width=1024">
 
     <meta name="author" content="Project Everest">
-    <!-- Bidvertiser2063917 -->
-    <!--Swiper-->
-    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="style.css">
 
     <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
     <title>Project Everest Official Website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Project Everest Official Website">
     <meta name="description" content="Official Website Downloads and much more...">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/logo.png">
@@ -26,13 +40,6 @@
     <meta property="og:description" content="Official Website Downloads and much more...">
     <meta property="og:image" content="assets/logo.png">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://RisingOS-os.live">
-    <meta property="twitter:title" content="Project Everest Official Website">
-    <meta property="twitter:description" content="Official Website Downloads and much more...">
-    <meta property="twitter:image" content="assets/logo.png">
-
     <link href="http://fonts.cdnfonts.com/css/cleanvertising" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
@@ -40,7 +47,6 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0YTMY1KWCG"></script>
@@ -53,8 +59,8 @@
     </script>
 </head>
 
-<body style="display: block;" class="w-100"><button type="button" id="mobile-nav-toggle"><i
-            class="bi bi-filter-right"></i></button>
+<body style="display: block;" class="w-100">
+    <button type="button" id="mobile-nav-toggle"><i class="bi bi-filter-right"></i></button>
     <div class="se-pre-con"></div>
     <header id="header" class=" w-100">
         <div class="container main-menu">
@@ -70,8 +76,7 @@
                     </ul>
                 </nav>
                 <div id="logo">
-                    <a href="index.html" style="color:white" style="font-weight: normal;"><img src="./assets/logo.png"
-                            width="50" height="50" alt="" title="">Project Everest</a>
+                    <a href="index.html" style="color:white" style="font-weight: normal;"><img src="./assets/logo.png" width="50" height="50" alt="" title="">Project Everest</a>
                 </div>
             </div>
         </div>
@@ -82,8 +87,8 @@
             <div class="row fullscreen align-items-center justify-content-between">
                 <div class="col-lg-6 col-md-6 banner-left">
                     <h1>
-                        <span class="h6">Introducing </span>
-                        <br>Project Everest
+                        <span class="h3">Introducing </span>
+                        <br>Everest OS
                     </h1>
                     <p>
                         Project Everest is a OpenSource Aftermarket Android Operating System that aims to bring unique and fresh user experience.
@@ -110,7 +115,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <span class="lnr lnr-pie-chart"></span>
-                            <h4>Security</h4>
+                        <h4>Security</h4>
                         <p>
                             "Up to date security patches from Google”
                         </p>
@@ -119,7 +124,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <span class="lnr lnr-laptop-phone"></span>
-                            <h4>Transparency</h4>
+                        <h4>Transparency</h4>
                         <p>
                             "Project Everest is 100% open source code, no secrets, just transparency."
 
@@ -129,7 +134,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <span class="lnr lnr-camera"></span>
-                            <h4>Rich Features</h4>
+                        <h4>Rich Features</h4>
                         <p>
                             "Project Everest provides rich features and customizations for better user experience."
 
@@ -139,7 +144,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <span class="lnr lnr-picture"></span>
-                            <h4>UI/UX Design</h4>
+                        <h4>UI/UX Design</h4>
                         <p>
                             "We always strive to make things simple and minimalistic, with a little spice."
                         </p>
@@ -148,17 +153,16 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <span class="lnr lnr-picture"></span>
-                            <h4>Performance</h4>
+                        <h4>Performance</h4>
                         <p>
-                            "Alongside with our promise to make things simple, we also strive to make user experience,
-                            lag-free, fast and enjoyable."
+                            "Alongside with our promise to make things simple, we also strive to make user experience, lag-free, fast and enjoyable."
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <span class="lnr lnr-picture"></span>
-                            <h4>Community</h4>
+                        <h4>Community</h4>
                         <p>
                             "We have a community that helps each other."
                         </p>
@@ -171,147 +175,158 @@
 
 
     <h1 class="center_title">SCREENSHOTS</h1>
-    <!-- Swiper -->
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe1.jpg" alt="">
-                </div>
-                <div class="content">
 
+    <section id="slider-2">
+        <div class="container wide">
+            <div class="swiper" id="swiper-2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe1.jpg" alt="Marbella, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> Lockscreen settings
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe2.jpg" alt="Sevilla, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> BS styles
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe3.jpg" alt="Fornalutx, Mallorca, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> QS
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe4.jpg" alt="Calle Niño de Guevara, 1, 29008 Málaga, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> QS settings
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe5.jpg" alt="Calle Niño de Guevara, 1, 29008 Málaga, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> Spoofing settings
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe6.jpg" alt="Valldemossa, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> UI styles
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe7.jpg" alt="Cala S'Almunia in Mallorca, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> Monet settings
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe8.jpg" alt="Cala S'Almunia in Mallorca, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> Lock screen
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe9.jpg" alt="Cala S'Almunia in Mallorca, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> QS settings
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe10.jpg" alt="Cala S'Almunia in Mallorca, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> About phone
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe11.jpg" alt="Cala S'Almunia in Mallorca, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> Base Camp
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe12.jpg" alt="Cala S'Almunia in Mallorca, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> Settings home
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide">
+                        <figure>
+                            <img src="assets/img/swipe13.jpg" alt="Cala S'Almunia in Mallorca, Spain" />
+                            <figcaption>
+                                <img src="assets/img/icon-location.svg" alt="Icon location"> Lockscreen settings
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- end swiper-slide -->
                 </div>
+                <!-- end swiper-wrapper -->
+
+                <div class="swiper-custom-nav">
+                    <svg width="64" height="64" viewBox="0 0 64 64" id="nav-left" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 2.79753e-06C14.3269 4.34256e-06 -4.34256e-06 14.3269 -2.79753e-06 32C-1.2525e-06 49.6731 14.3269 64 32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 1.2525e-06 32 2.79753e-06ZM28.9334 24.3999C28.6667 24.1333 28.4 23.9999 28 23.9999C27.6 23.9999 27.3334 24.1333 27.0667 24.3999L20.4 31.0666L20.4 31.0667C20.2 31.2667 20.075 31.5041 20.025 31.751C19.9417 32.1624 20.0666 32.6 20.4 32.9333L27.0667 39.6C27.6 40.1333 28.4 40.1333 28.9333 39.6C29.4667 39.0667 29.4667 38.2667 28.9333 37.7333L24.5334 33.3334L42.7222 33.3334C43.4889 33.3334 44 32.8 44 32C44 31.2 43.4889 30.6667 42.7222 30.6667L24.5333 30.6667L28.9334 26.2666C29.4667 25.7333 29.4667 24.9333 28.9334 24.3999Z"
+                        fill="white" />
+                    </svg>
+
+                    <svg width="64" height="64" viewBox="0 0 64 64" id="nav-right" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64ZM35.0666 39.6001C35.3333 39.8667 35.6 40.0001 36 40.0001C36.4 40.0001 36.6666 39.8667 36.9333 39.6001L43.6 32.9334L43.6 32.9333C43.8 32.7333 43.925 32.4959 43.975 32.249C44.0583 31.8376 43.9334 31.4 43.6 31.0667L36.9333 24.4C36.4 23.8667 35.6 23.8667 35.0667 24.4C34.5333 24.9333 34.5333 25.7333 35.0667 26.2667L39.4666 30.6666H21.2778C20.5111 30.6666 20 31.2 20 32C20 32.8 20.5111 33.3333 21.2778 33.3333H39.4667L35.0666 37.7334C34.5333 38.2667 34.5333 39.0667 35.0666 39.6001Z"
+                        fill="white" />
+                    </svg>
+                </div>
+                <!-- end swiper-custom-nav -->
+
+                <div class="swiper-custom-pagination"></div>
             </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe2.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe3.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe4.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe5.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe6.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe7.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe8.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe9.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe10.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe11.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe12.jpg" alt="">
-                </div>
-                <div class="content">
-
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <img src="assets/img/swipe13.jpg" alt="">
-                </div>
-                <div class="content">
-
+            <!-- end swiper -->
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-    </div>
+        <!-- end container -->
+    </section>
 
     <!-- Swiper JS -->
-    <script src="swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            effect: 'coverflow',
-            grabCursor: false,
-            centeredSlides: true,
-            slidesPerView: 'auto',
-            autoplay: {
-                delay: 1700,
-                disableOnInteraction: false,
-            },
-            loop: true,
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 20,
-                depth: 500,
-                modifier: 1,
-                slideShadows: false,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-            },
-        });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
 
     <script>
         async function fetchTest() {
-            let response = await fetch('https://raw.githubusercontent.com/projectarcana-aosp/projectarcana-aosp.github.io/main/changelog.md');
+            let response = await fetch('https://raw.githubusercontent.com/ProjectEverest/EverestOS_Changelogs/main/README.md');
             let responseText = await response.text();
             document.getElementById('result').innerHTML = responseText;
         }
@@ -320,8 +335,7 @@
         })();
     </script>
 
-    <div class="modal fade w-100" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade w-100" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered ">
             <div class="modal-content">
                 <div class="modal-header">
@@ -356,11 +370,9 @@
                     <p>
                         Stay informed. Keep up with changes to Project Everest.
                     </p>
-                    <a class="primary-btn text-uppercase" id="button"
-                    href="https://github.com/ProjectEverest/EverestOS_Changelogs/blob/main/README.md" target=_blank><i
+                    <a class="primary-btn text-uppercase" id="button" href="https://github.com/ProjectEverest/EverestOS_Changelogs/blob/main/README.md" target=_blank><i
                         class="fas fa-user"></i>What's New?</a>
                     </a>
-
                 </div>
 
                 <section class="section-gap" id="apply">
@@ -371,8 +383,7 @@
                                     <h1 class="text-uppercase">Want to be part of our team?</h1>
                                     <p class="p-large">There is no harm in trying, apply now!
                                     </p>
-                                    <a class="primary-btn text-uppercase" id="button"
-                                        href="https://forms.gle/DKJ2DE5nqMw2gHRW6" target=_blank><i
+                                    <a class="primary-btn text-uppercase" id="button" href="https://forms.gle/DKJ2DE5nqMw2gHRW6" target=_blank><i
                                             class="fas fa-user"></i>Apply for Maintainership</a>
                                     <br>
                                 </div>
@@ -407,8 +418,7 @@
                                 </div>
                                 <div class="package-list">
                                     <ul>
-                                        <li><a type="button" href="https://github.com/Arman-ATI"
-                                                class="btn text-white btn-dark" style="border-radius:99px;"><i
+                                        <li><a type="button" href="https://github.com/Arman-ATI" class="btn text-white btn-dark" style="border-radius:99px;"><i
                                                     class="bi bi-github mr-1"></i>Github</li></a>
                                     </ul>
                                 </div>
@@ -421,25 +431,23 @@
                         <div class="row">
                             <div class="col-lg-5 col-md-6 col-sm-6">
                                 <div class="single-footer-widget">
-                                    <h4>Project Everest</h4>
-                                    <p>
-                                        A custom AOSP fork  aimed for better performance and enhanced user experience with taste of customizations
-                                    </p>
-                                    <p class="footer-text">
+                                    <h3>Project Everest</h3>
+                                    <h9>
+                                        Custom mobile operating OS based from Android Open Source Project.
+                                    </h9>
+                                    <h9 class="footer-text">
                                         Copyright ©
                                         <script>
                                             document.write(new Date().getFullYear());
-                                        </script> All rights reserved | This website is designed by <a
-                                            href="https://t.me/Arman_ATI" target="_blank">Arman-ATI</a>
-                                    </p>
+                                        </script> All rights reserved | This website is designed by <a href="https://t.me/Arman_ATI" target="_blank">Arman-ATI</a>
+                                    </h9>
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-6 col-sm-6">
                                 <div class="">
                                     <h4></h4>
                                     <a href="">
-                                        <h2><i class=""></i>
-                                    </a>
+                                        <h><i class=""></i></a>
                                     </a>
 
 
@@ -450,10 +458,8 @@
                                     <h4>Connect With Us!</h4>
 
                                     <div class="footer-social d-flex align-items-center">
-                                        <h2><a href="https://github.com/ProjectEverest"><i
-                                                    class="bi bi-github text-white"></i></a>
-                                            <a href="https://t.me/projecteverest"><i class="bi bi-telegram"></i></a>
-                                        </h2>
+                                        <h2><a href="https://github.com/projectEverest"><i class="bi bi-github text-white"></i></a>
+                                        <a href="https://t.me/projecteverest"><i class="bi bi-telegram"></i></a></h2>
 
                                     </div>
                                 </div>
@@ -469,9 +475,7 @@
                 <script src="./assets/js/hoverIntent.js"></script>
                 <script src="./assets/js/jquery.tabs.min.js"></script>
                 <script src="./assets/js/main.js"></script>
-                <script async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8289778735939061"
-                    crossorigin="anonymous"></script>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8289778735939061" crossorigin="anonymous"></script>
 
                 <div id="mobile-body-overly" style="display: none;"></div>
 </body>
