@@ -97,6 +97,8 @@
 
 .product-brand {
   text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
 }
 
 .pre-btn,
